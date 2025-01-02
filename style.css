@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #548687;
+}
+
+.heading
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.win
+{
+    display: none;
+    height: 90vh;
+}
+
+.winner
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 230px;
+    font-size: 50px;
+    color: #FFF2C2;
+}
+
+.new
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 300px;
+}
+
+.new_button
+{
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    color:white ;
+    font-size: 1.5em;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.body
+{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big_box
+{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.small_box
+{
+    height: 120px;
+    width: 120px;
+    background-color: #FFF2C2;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+#reset_button
+{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color:white ;
+    font-size: 1.5em;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.reset
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
